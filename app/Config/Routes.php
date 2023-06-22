@@ -33,6 +33,10 @@ $routes->get('/login', 'AuthController::login');
 $routes->add('/login', 'AuthController::login'); 
 $routes->get('/logout', 'AuthController::logout');
 
+//Register
+$routes->get('/register', 'AuthController::register');
+$routes->add('/register', 'AuthController::register'); 
+
 //Transaksi Routes
 $routes->get('/keranjang', 'TransaksiController::cart_show', ['filter' => 'auth']);
 $routes->add('/keranjang', 'TransaksiController::cart_add', ['filter' => 'auth']);

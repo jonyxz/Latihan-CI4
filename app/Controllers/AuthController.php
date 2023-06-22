@@ -49,4 +49,28 @@
 		        session()->destroy();
 		        return redirect()->to('login');
 		    }
+
+			public function register()
+			{
+				if ($this->request->getPost()) {
+					$username = $this->request->getVar('username');
+					$password = md5($this->request->getVar('password'));
+					$email = $this->request->getVar('email');
+		
+					$data = [
+						'username' => $username,
+						'password' => $password,
+						'email' => $email
+					];
+		
+					$this->user->insert($data);
+		
+					session()->setFlashdata('success', 'Registration Successful!');
+					return redirect()->to('login');
+				} else {
+					return view('register_view');
+				}
+			}
+			
+
 		}

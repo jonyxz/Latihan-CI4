@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 21 Jun 2023 pada 10.33
+-- Waktu pembuatan: 22 Jun 2023 pada 17.43
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.2.0
 
@@ -42,9 +42,58 @@ CREATE TABLE `brg` (
 --
 
 INSERT INTO `brg` (`id`, `nama`, `jenis`, `hrg`, `ket`, `foto`, `stok`) VALUES
-(1, 'mouse', '', 100000, '-', '1687259808_5e9e4fe319afac9058a3.jpg', 30),
-(2, 'speaker', '', 150000, '-', '1687259979_4ad2b1235623b808f801.jpg', 10),
+(1, 'mouse', '', 100000, '-', '1687259808_5e9e4fe319afac9058a3.jpg', 10),
+(2, 'speaker', '', 150000, '-', '1687259979_4ad2b1235623b808f801.jpg', 5),
 (3, 'keyboard ', '', 1000000, '-', '1687259875_1452862a4787ba006420.jpg', 20);
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `transaksi`
+--
+
+CREATE TABLE `transaksi` (
+  `id` int(11) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `total_harga` double NOT NULL,
+  `alamat` varchar(255) NOT NULL,
+  `ongkir` double NOT NULL,
+  `status` int(1) NOT NULL,
+  `created_by` varchar(100) NOT NULL,
+  `created_date` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `transaksi`
+--
+
+INSERT INTO `transaksi` (`id`, `username`, `total_harga`, `alamat`, `ongkir`, `status`, `created_by`, `created_date`) VALUES
+(2, 'jo', 259000, 'semarang', 9000, 0, 'jo', '2023-06-22 09:09:12');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `transaksi_detail`
+--
+
+CREATE TABLE `transaksi_detail` (
+  `id` int(11) NOT NULL,
+  `id_transaksi` int(11) NOT NULL,
+  `id_barang` int(11) NOT NULL,
+  `jumlah` double NOT NULL,
+  `diskon` double NOT NULL,
+  `subtotal_harga` double NOT NULL,
+  `created_by` varchar(100) NOT NULL,
+  `created_date` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `transaksi_detail`
+--
+
+INSERT INTO `transaksi_detail` (`id`, `id_transaksi`, `id_barang`, `jumlah`, `diskon`, `subtotal_harga`, `created_by`, `created_date`) VALUES
+(3, 2, 1, 1, 0, 100000, 'jo', '2023-06-22 09:09:12'),
+(4, 2, 2, 1, 0, 150000, 'jo', '2023-06-22 09:09:12');
 
 -- --------------------------------------------------------
 
@@ -54,10 +103,10 @@ INSERT INTO `brg` (`id`, `nama`, `jenis`, `hrg`, `ket`, `foto`, `stok`) VALUES
 
 CREATE TABLE `user` (
   `user_id` int(11) NOT NULL,
-  `username` varchar(60) NOT NULL,
+  `username` varchar(100) NOT NULL,
   `email` varchar(80) NOT NULL,
   `password` varchar(225) NOT NULL,
-  `role` varchar(20) NOT NULL
+  `role` varchar(20) NOT NULL DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -67,7 +116,8 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`user_id`, `username`, `email`, `password`, `role`) VALUES
 (1, 'amir', 'amir@mail.co', '202cb962ac59075b964b07152d234b70', 'user'),
 (2, 'admin', 'admin@mail.co', '202cb962ac59075b964b07152d234b70', 'admin'),
-(4, 'jo', 'jo@mail.co', '202cb962ac59075b964b07152d234b70', 'user');
+(4, 'jo', 'jo@mail.co', '202cb962ac59075b964b07152d234b70', 'user'),
+(5, 'joni', 'jonikecil@mail.com', '202cb962ac59075b964b07152d234b70', 'user');
 
 --
 -- Indexes for dumped tables
@@ -77,6 +127,18 @@ INSERT INTO `user` (`user_id`, `username`, `email`, `password`, `role`) VALUES
 -- Indeks untuk tabel `brg`
 --
 ALTER TABLE `brg`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks untuk tabel `transaksi_detail`
+--
+ALTER TABLE `transaksi_detail`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -96,10 +158,22 @@ ALTER TABLE `brg`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT untuk tabel `transaksi_detail`
+--
+ALTER TABLE `transaksi_detail`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
