@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Jun 2023 pada 17.43
+-- Waktu pembuatan: 28 Jun 2023 pada 11.03
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.2.0
 
@@ -106,18 +106,18 @@ CREATE TABLE `user` (
   `username` varchar(100) NOT NULL,
   `email` varchar(80) NOT NULL,
   `password` varchar(225) NOT NULL,
-  `role` varchar(20) NOT NULL DEFAULT 'user'
+  `role` varchar(20) NOT NULL DEFAULT 'user',
+  `status` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `user`
 --
 
-INSERT INTO `user` (`user_id`, `username`, `email`, `password`, `role`) VALUES
-(1, 'amir', 'amir@mail.co', '202cb962ac59075b964b07152d234b70', 'user'),
-(2, 'admin', 'admin@mail.co', '202cb962ac59075b964b07152d234b70', 'admin'),
-(4, 'jo', 'jo@mail.co', '202cb962ac59075b964b07152d234b70', 'user'),
-(5, 'joni', 'jonikecil@mail.com', '202cb962ac59075b964b07152d234b70', 'user');
+INSERT INTO `user` (`user_id`, `username`, `email`, `password`, `role`, `status`) VALUES
+(1, 'amir', 'amir@mail.com', '202cb962ac59075b964b07152d234b70', 'user', 0),
+(2, 'admin', 'admin@mail.com', '202cb962ac59075b964b07152d234b70', 'admin', 1),
+(6, 'joni', 'jonikecil@mail.com', '202cb962ac59075b964b07152d234b70', 'user', 1);
 
 --
 -- Indexes for dumped tables
@@ -155,7 +155,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `brg`
 --
 ALTER TABLE `brg`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT untuk tabel `transaksi`
@@ -173,7 +173,7 @@ ALTER TABLE `transaksi_detail`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
