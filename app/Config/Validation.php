@@ -68,4 +68,5 @@ class Validation extends BaseConfig
             'integer' => '{field} Harus Angka<br>'
         ],
     ];
+
 }
