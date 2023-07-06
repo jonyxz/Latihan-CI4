@@ -3,10 +3,12 @@
     namespace App\Controllers;
 
     use App\Controllers\BaseController;
+use App\Models\TransaksiModel;
 
     class TransaksiController extends BaseController
     {
         protected $cart;
+        protected $transaksi;
         private $url = "https://api.rajaongkir.com/starter/";
 		private $apiKey = "c490cfb758940f2c05b75f30bb0808e6";
 
@@ -15,6 +17,7 @@
             helper('number');
             helper('form');
             $this->cart = \Config\Services::cart();
+            $this->transaksi= new TransaksiModel();
         }
 
         public function cart_show()
@@ -200,4 +203,31 @@
                 return redirect()->to(base_url('keranjang'));
             }
         }
+
+        
+			public function index()
+			{
+				$data['transaksi'] = $this->transaksi->findAll();
+				return view('pages/transaksi_view', $data);
+			}
+
+            public function edit($id)
+			{
+				$data = $this->request->getPost();
+
+				if($data){
+                    if($data){
+                            $dataForm = [
+                                'status' => $this -> request -> getPost('status')
+                            ];
+					$this->transaksi->update($id, $dataForm);
+
+					return redirect('transaksi')->with('success','Data Berhasil Diubah');
+				}else{
+					return redirect('transaksi')->with('failed','Data Gagal Diubah');
+				}
+				
+			    }
+            }
+
     }

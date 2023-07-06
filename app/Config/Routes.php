@@ -47,6 +47,8 @@ $routes->get('/keranjang/getcity', 'TransaksiController::getcity', ['filter' => 
 $routes->get('/keranjang/getcost', 'TransaksiController::getcost', ['filter' => 'auth']);
 $routes->add('/keranjang/buy', 'TransaksiController::buy', ['filter' => 'auth']);
 $routes->add('/keranjang/checkout', 'TransaksiController::checkout', ['filter' => 'auth']);
+$routes->get('/transaksi', 'TransaksiController::index', ['filter' => 'auth']);
+$routes->add('/transaksi/edit/(:any)', 'TransaksiController::edit/$1', ['filter' => 'auth']);
 
 //Produk Routes
 $routes->get('/produk', 'ProdukController::index', ['filter' => 'auth']);

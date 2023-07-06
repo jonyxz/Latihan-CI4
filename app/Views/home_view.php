@@ -17,13 +17,36 @@ if (session()->getFlashData('success')) {
             <?php
             echo form_hidden('id', $produk['id']);
             echo form_hidden('nama', $produk['nama']);
-            echo form_hidden('hrg', $produk['hrg']);
+            if($produk['diskon']==0){
+                echo form_hidden('hrg', $produk['hrg']);
+            }else{
+                echo form_hidden('hrg', $produk['hargadiskon']);
+            }
             echo form_hidden('foto', $produk['foto']);
             ?>
             <div class="card">
                 <div class="card-body">
+                    <?php
+                    if($produk['diskon']!=0):
+                        ?>
+                    <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger">
+                        Diskon<br><?= $produk['diskon']?>%
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                    <?php endif;?>
                     <img src="<?php echo base_url() . "public/img/" . $produk['foto'] ?>" alt="..." class="card-img-top">
-                    <h5 class="card-title"><?php echo $produk['nama'] ?><br><?php echo number_to_currency($produk['hrg'], 'IDR') ?></h5>
+                    <h5 class="card-title"><?php echo $produk['nama'] ?><br>
+                    <?php 
+                        if($produk['diskon']==0){
+                            echo number_to_currency($produk['hrg'], 'IDR');
+                        }else{
+                            ?>
+                            <s class="text-secondary">
+                                <?php echo number_to_currency($produk['hrg'], 'IDR');?>
+                            </s>
+                                <?php echo number_to_currency($produk['hargadiskon'], 'IDR');
+                        }
+                    ?></h5>
                     <button type="submit" class="btn btn-info rounded-pill">Beli</button>
                 </div>
             </div>

@@ -60,9 +60,22 @@
 					$dataForm = [
 						'nama' => $this->request->getPost('nama'),
 						'hrg' => $this->request->getPost('harga'),
+						'diskon' => $this->request->getPost('diskon'),
 						'stok' => $this->request->getPost('jumlah'),
 						'ket' => $this->request->getPost('keterangan')
 					];
+
+					$diskon = $dataForm['diskon'];
+					if ($diskon != 0) {
+						$hargaAwal = $dataForm['hrg'];
+						$hargaDiskon = $hargaAwal - ($hargaAwal * $diskon / 100);
+						$dataForm['hargadiskon'] = $hargaDiskon;
+					} else {
+						$dataForm['hargadiskon'] = $dataForm['hrg'];
+					}
+					
+					$session = \Config\Services::session();
+					$session->setFlashData('success', 'Data berhasil disimpan');
 
 					if($this->request->getPost('check')){
 						$dataFoto = $this->request->getFile('foto');

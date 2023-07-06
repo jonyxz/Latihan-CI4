@@ -19,9 +19,7 @@
 				if ($this->request->getPost()) {
 					$username = $this->request->getVar('username');
 					$password = $this->request->getVar('password');
-
 					$dataUser = $this->user->where(['username' => $username])->first();
-
 					if ($dataUser) {
 						if($dataUser['status']==1){
 							if (md5($password) == $dataUser['password']) {
@@ -30,7 +28,6 @@
 									'role' => $dataUser['role'],
 									'isLoggedIn' => TRUE
 								]);
-	
 								return redirect()->to(base_url('/'));
 							} else {
 								session()->setFlashdata('failed', 'Username & Password Salah');

@@ -30,6 +30,12 @@
         <i class="bi bi-receipt"></i>
         <span>User</span>
     </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link <?php echo (uri_string()=='transaksi')?"":"collapsed"?>" href="<?php echo base_url()?>transaksi">
+        <i class="bi bi-receipt"></i>
+        <span>Transaksi</span>
+    </a>
     </li>       
     <?php
         }

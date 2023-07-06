@@ -1,0 +1,553 @@
+INFO - 2023-07-06 03:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:16:51 --> Cart Class Initialized
+INFO - 2023-07-06 03:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:19:29 --> Cart Class Initialized
+INFO - 2023-07-06 03:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:20:54 --> Cart Class Initialized
+INFO - 2023-07-06 03:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:21:00 --> Cart Class Initialized
+INFO - 2023-07-06 03:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:21:00 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:21:00 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:21:59 --> Cart Class Initialized
+WARNING - 2023-07-06 03:21:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$transaction is deprecated in APPPATH\Controllers\TransaksiController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 03:21:59 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:22:02 --> Cart Class Initialized
+WARNING - 2023-07-06 03:22:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$transaction is deprecated in APPPATH\Controllers\TransaksiController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 03:22:02 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:22:10 --> Cart Class Initialized
+WARNING - 2023-07-06 03:22:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\TransaksiController::$transaction is deprecated in APPPATH\Controllers\TransaksiController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\TransaksiController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 03:22:10 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:22:33 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:22:33 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:29:20 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:29:21 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:29:35 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:29:35 --> Undefined variable $transaction
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaction', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:30:51 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:30:51 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:20 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:32:20 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:32 --> Cart Class Initialized
+INFO - 2023-07-06 03:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-06 03:32:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$validation is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:33:22 --> Cart Class Initialized
+INFO - 2023-07-06 03:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:33:25 --> Cart Class Initialized
+INFO - 2023-07-06 03:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:33:29 --> Cart Class Initialized
+INFO - 2023-07-06 03:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:33:29 --> Cart Class Initialized
+INFO - 2023-07-06 03:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:33:36 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:33:36 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:34:51 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:34:51 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:34:54 --> Cart Class Initialized
+INFO - 2023-07-06 03:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:34:55 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:34:55 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:35:43 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:35:43 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 87.
+ 1 APPPATH\Views\pages\transaksi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:36:02 --> Cart Class Initialized
+INFO - 2023-07-06 03:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:38:26 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:38:26 --> Undefined array key "ogkir"
+in APPPATH\Views\pages\transaksi_view.php on line 64.
+ 1 APPPATH\Views\pages\transaksi_view.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ogkir"', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:38:34 --> Cart Class Initialized
+INFO - 2023-07-06 03:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:41:43 --> Cart Class Initialized
+INFO - 2023-07-06 03:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:43:03 --> Cart Class Initialized
+CRITICAL - 2023-07-06 03:43:03 --> Undefined variable $transaksi
+in APPPATH\Views\pages\transaksi_view.php on line 88.
+ 1 APPPATH\Views\pages\transaksi_view.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(212): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->transactionHistory()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 03:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:43:13 --> Cart Class Initialized
+INFO - 2023-07-06 03:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:43:52 --> Cart Class Initialized
+INFO - 2023-07-06 03:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:44:00 --> Cart Class Initialized
+INFO - 2023-07-06 03:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:44:05 --> Cart Class Initialized
+INFO - 2023-07-06 03:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:36 --> Cart Class Initialized
+INFO - 2023-07-06 03:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:39 --> Cart Class Initialized
+INFO - 2023-07-06 03:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:41 --> Cart Class Initialized
+INFO - 2023-07-06 03:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:45 --> Cart Class Initialized
+INFO - 2023-07-06 03:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:45 --> Cart Class Initialized
+INFO - 2023-07-06 03:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:49:48 --> Cart Class Initialized
+INFO - 2023-07-06 03:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:53:11 --> Cart Class Initialized
+INFO - 2023-07-06 04:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:00:22 --> Cart Class Initialized
+INFO - 2023-07-06 04:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:00:49 --> Cart Class Initialized
+INFO - 2023-07-06 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:02:45 --> Cart Class Initialized
+CRITICAL - 2023-07-06 04:02:45 --> Undefined property: App\Controllers\TransaksiController::$transaksi
+in APPPATH\Controllers\TransaksiController.php on line 208.
+ 1 APPPATH\Controllers\TransaksiController.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\TransaksiController::$transaksi', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Controllers\\TransaksiController.php', 208)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:04:32 --> Cart Class Initialized
+CRITICAL - 2023-07-06 04:04:32 --> Undefined variable $transactions
+in APPPATH\Views\pages\transaksi_view.php on line 45.
+ 1 APPPATH\Views\pages\transaksi_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transactions', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(211): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:05:30 --> Cart Class Initialized
+CRITICAL - 2023-07-06 04:05:30 --> Undefined variable $transactions
+in APPPATH\Views\pages\transaksi_view.php on line 45.
+ 1 APPPATH\Views\pages\transaksi_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transactions', 'C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Views\\pages\\transaksi_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/transaksi_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(211): view('pages/transaksi_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:05:51 --> Cart Class Initialized
+INFO - 2023-07-06 04:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-06 04:05:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$validation is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:05:58 --> Cart Class Initialized
+INFO - 2023-07-06 04:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:04 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:07 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:09 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:12 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:16 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:16 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:19 --> Cart Class Initialized
+INFO - 2023-07-06 04:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:06:46 --> Cart Class Initialized
+INFO - 2023-07-06 04:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:27 --> Cart Class Initialized
+INFO - 2023-07-06 04:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:31 --> Cart Class Initialized
+INFO - 2023-07-06 04:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:33 --> Cart Class Initialized
+INFO - 2023-07-06 04:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:36 --> Cart Class Initialized
+INFO - 2023-07-06 04:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:49 --> Cart Class Initialized
+INFO - 2023-07-06 04:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:07:55 --> Cart Class Initialized
+INFO - 2023-07-06 04:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:08:01 --> Cart Class Initialized
+INFO - 2023-07-06 04:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:08:02 --> Cart Class Initialized
+INFO - 2023-07-06 04:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:08:04 --> Cart Class Initialized
+INFO - 2023-07-06 04:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:09:25 --> Cart Class Initialized
+INFO - 2023-07-06 04:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:09:39 --> Cart Class Initialized
+INFO - 2023-07-06 04:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:10:48 --> Cart Class Initialized
+INFO - 2023-07-06 04:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:11:00 --> Cart Class Initialized
+INFO - 2023-07-06 04:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:13:27 --> Cart Class Initialized
+INFO - 2023-07-06 04:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:13:36 --> Cart Class Initialized
+INFO - 2023-07-06 04:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:15:20 --> Cart Class Initialized
+INFO - 2023-07-06 04:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:15:26 --> Cart Class Initialized
+INFO - 2023-07-06 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:16:19 --> Cart Class Initialized
+INFO - 2023-07-06 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:16:30 --> Cart Class Initialized
+INFO - 2023-07-06 04:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:17:50 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\TransaksiController.php on line 232.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Controllers\\TransaksiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TransaksiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TransaksiController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TransaksiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:18:19 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\TransaksiController.php on line 232.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Controllers\\TransaksiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TransaksiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TransaksiController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TransaksiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:18:36 --> Unclosed '{' on line 9
+in APPPATH\Controllers\TransaksiController.php on line 232.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Latihan-CI4\\app\\Controllers\\TransaksiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TransaksiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TransaksiController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TransaksiController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-06 04:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:19:31 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:22 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:36 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:39 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:41 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:42 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:44 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:44 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:45 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:45 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:48 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:20:48 --> Cart Class Initialized
+INFO - 2023-07-06 04:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:00 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:02 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:05 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:13 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:18 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:23 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:23 --> Cart Class Initialized
+INFO - 2023-07-06 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:21:26 --> Cart Class Initialized
+INFO - 2023-07-06 04:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:23:31 --> Cart Class Initialized
+INFO - 2023-07-06 04:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:23:31 --> Cart Class Initialized
+INFO - 2023-07-06 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:23:39 --> Cart Class Initialized
+INFO - 2023-07-06 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:23:39 --> Cart Class Initialized
+INFO - 2023-07-06 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:23:41 --> Cart Class Initialized
+INFO - 2023-07-06 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:23:41 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:53 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:56 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:56 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:57 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:57 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:59 --> Cart Class Initialized
+INFO - 2023-07-06 04:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:24:59 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:02 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:03 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:04 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:04 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:05 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:05 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:06 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:06 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:07 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:07 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:32 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:35 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:35 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:37 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:37 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:39 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:39 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:40 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:40 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:54 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:59 --> Cart Class Initialized
+INFO - 2023-07-06 04:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:25:59 --> Cart Class Initialized
+INFO - 2023-07-06 04:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:26:00 --> Cart Class Initialized
+INFO - 2023-07-06 04:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:26:00 --> Cart Class Initialized
+INFO - 2023-07-06 04:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:26:59 --> Cart Class Initialized
+INFO - 2023-07-06 04:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:27:15 --> Cart Class Initialized
+INFO - 2023-07-06 04:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:27:15 --> Cart Class Initialized
+INFO - 2023-07-06 04:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:27:51 --> Cart Class Initialized
+INFO - 2023-07-06 04:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:29:04 --> Cart Class Initialized
+INFO - 2023-07-06 04:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:29:04 --> Cart Class Initialized
+INFO - 2023-07-06 04:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-07-06 04:53:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\ProdukController::$validation is deprecated in APPPATH\Controllers\ProdukController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\ProdukController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
