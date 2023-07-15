@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Waktu pembuatan: 28 Jun 2023 pada 11.03
--- Versi server: 10.4.27-MariaDB
--- Versi PHP: 8.2.0
+-- Host: localhost
+-- Waktu pembuatan: 15 Jul 2023 pada 07.51
+-- Versi server: 10.4.28-MariaDB
+-- Versi PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -34,17 +34,19 @@ CREATE TABLE `brg` (
   `hrg` double NOT NULL,
   `ket` varchar(200) NOT NULL,
   `foto` varchar(200) DEFAULT NULL,
-  `stok` int(5) NOT NULL
+  `stok` int(5) NOT NULL,
+  `diskon` tinyint(1) NOT NULL,
+  `hargadiskon` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `brg`
 --
 
-INSERT INTO `brg` (`id`, `nama`, `jenis`, `hrg`, `ket`, `foto`, `stok`) VALUES
-(1, 'mouse', '', 100000, '-', '1687259808_5e9e4fe319afac9058a3.jpg', 10),
-(2, 'speaker', '', 150000, '-', '1687259979_4ad2b1235623b808f801.jpg', 5),
-(3, 'keyboard ', '', 1000000, '-', '1687259875_1452862a4787ba006420.jpg', 20);
+INSERT INTO `brg` (`id`, `nama`, `jenis`, `hrg`, `ket`, `foto`, `stok`, `diskon`, `hargadiskon`) VALUES
+(1, 'mouse', '', 100000, '-', '1687259808_5e9e4fe319afac9058a3.jpg', 10, 0, 0),
+(2, 'speaker', '', 150000, '-', '1687259979_4ad2b1235623b808f801.jpg', 5, 0, 0),
+(3, 'keyboard ', '', 1000000, '-', '1687259875_1452862a4787ba006420.jpg', 20, 0, 0);
 
 -- --------------------------------------------------------
 
