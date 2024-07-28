@@ -1,10 +1,4 @@
 
-Nama  : Johan Ridho Akbar Auradhana 
-
-NIM   : A11.2022.14472
-
-Kelp  : 4213
-
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
